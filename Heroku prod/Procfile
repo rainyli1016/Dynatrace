@@ -1,0 +1,2 @@
+worker: python Tickets_Incremental_Load_Stg.py
+worker: spark-submit Netsuite_JDBC_revenueplanplanedrevenue.py

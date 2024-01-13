@@ -1,0 +1,28 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dynamartapp-prd</groupId>
+  <artifactId>dynamartapp-prd</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  
+  <properties>
+    <project.basedir>/app/dynamartapp-prd</project.basedir>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>com.netsuite</groupId>
+      <artifactId>NQjc</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/NQjc.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.6.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/postgresql-42.6.0.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>

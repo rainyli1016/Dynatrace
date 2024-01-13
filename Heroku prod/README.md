@@ -1,0 +1,1 @@
+This repository stores the files and codes deployed to Heroku DYNAMARTAPP-STG.
